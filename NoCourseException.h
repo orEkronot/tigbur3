@@ -1,6 +1,6 @@
 #pragma once
 #include <exception>
-class NoCourseException : public std::exception
+class NoCourseException :  std::exception
 {
 	const char* what() const;
 };
